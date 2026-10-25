@@ -29,10 +29,10 @@ A suggested GitHub repository structure is:
 
 ```text
 student-dropout-prediction/
-├── Student Performance(1).py
+├── Student Performance.py
 ├── Student Performance(20261025-143318).ipynb
 ├── Studentdata.csv
-├── student performance(3).docx
+├── student performance.docx
 └── README.md
 ```
 

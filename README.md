@@ -146,7 +146,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
 You can also run the Python script from the terminal:
 
 ```bash
-python "Student Performance(1).py"
+python "Student Performance.py"
 ```
 
 Ensure the CSV path is correct before running the script. The script and notebook should be checked for consistent file paths and successful execution in your environment.

@@ -10,6 +10,14 @@ This project analyzes student data and builds a multiclass machine learning mode
 
 The project uses Python for data preprocessing, exploratory data analysis (EDA), statistical hypothesis testing, classification, and model evaluation. The results can help identify patterns associated with student outcomes and inform further investigation into student-support initiatives.
 
+## Main Workflow
+
+1. Load and clean `Studentdata.csv`.
+2. Explore distributions and feature/outcome relationships.
+3. Run one-way ANOVA for first-semester grade differences across outcome classes.
+4. Train and evaluate a multiclass Logistic Regression pipeline.
+5. Interpret metrics and model coefficients with responsible-use and limitation context.
+
 > **Important:** The model identifies statistical associations and predicts outcomes; it does not establish that any feature causes a student to drop out. Predictions should support, not replace, human judgement.
 
 ## Objectives
@@ -30,7 +38,7 @@ A suggested GitHub repository structure is:
 ```text
 student-dropout-prediction/
 ├── Student Performance.py
-├── Student Performance(20261025-143318).ipynb
+├── Student Performance.ipynb
 ├── Studentdata.csv
 ├── student performance.docx
 └── README.md
@@ -140,7 +148,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels jupyter
    jupyter notebook
    ```
 
-5. Open `Student Performance(20261025-143318).ipynb`.
+5. Open `Student Performance.ipynb`.
 6. Run the cells in order.
 
 You can also run the Python script from the terminal:
@@ -178,7 +186,13 @@ Use predictions as one signal for offering additional academic guidance or suppo
 - Build an early-warning model using only information available at the intended prediction time.
 - Validate the model on separate or more recent data and assess fairness across relevant groups.
 
+## Author
 
+- **Asireddy-Lokesh-Reddy** — [GitHub Profile](https://github.com/Asireddy-Lokesh-Reddy)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 
 

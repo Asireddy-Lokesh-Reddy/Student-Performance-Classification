@@ -178,10 +178,7 @@ Use predictions as one signal for offering additional academic guidance or suppo
 - Build an early-warning model using only information available at the intended prediction time.
 - Validate the model on separate or more recent data and assess fairness across relevant groups.
 
-## Author
 
-Add your name, institution, course, and GitHub profile here.
 
-## License
 
-Add a license if you want others to reuse this project. Confirm the dataset's license separately before redistributing the data.
+
